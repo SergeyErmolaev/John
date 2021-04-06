@@ -7,7 +7,7 @@ const activLink = (function() {
     if(a[i].classList.contains('active-link')) {
       a[i].classList.remove('active-link');
     }
-    let href = 'http://localhost:8081/' + a[i].getAttribute('href');
+    let href = a[i].getAttribute('href');
     if(href == link) a[i].classList.add('active-link');
   }
 
