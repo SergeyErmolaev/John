@@ -8,6 +8,8 @@ const activLink = (function() {
       a[i].classList.remove('active-link');
     }
     let href = a[i].getAttribute('href');
+    console.log("href", href);
+    console.log('link', link);
     if(href == link) a[i].classList.add('active-link');
   }
 
