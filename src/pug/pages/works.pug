@@ -1,0 +1,54 @@
+extends ../layout/main
+
+block variables
+  - var title = 'John works';
+  - var description = 'John creative technologist works';
+  - var pageClass = 'works-page';
+block head
+  <style>.social-links-block__link { background-image: url('../assets/img/home/social.png'); } .mobile-menu__link:nth-child(3) {color: $primary-color}</style>
+
+block content
+  section.main
+    .container
+      h1.blog-header.typo-page-header Works
+      .feature-card.row
+        .feature-card__img.col-lg-4.col-md-6.col-sm-6.col-xs-12
+          a(href="design.html")
+            img(src="../../../assets/img/home/Dashboard.jpg", alt="Dashboard")
+        .feature-card__body.col-lg-8.col-md-6.col-sm-6.col-xs-12
+          .featured-card__title.typo-bold-30 Designing Dashboards
+          .featured-card__data
+            .featured-card__data-data.typo-18 2020
+            .featured-card__data-title.typo-20 Dashboard
+          .featured-card__text Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+      hr.works-card__hr
+      .feature-card.row
+        .feature-card__img.col-lg-4.col-md-6.col-sm-6.col-xs-12
+          img(src="../../../assets/img/home/Portrait.jpg", alt="Portrait")
+        .feature-card__body.col-lg-8.col-md-6.col-sm-6.col-xs-12
+          .featured-card__title.typo-bold-30 Vibrant Portraits of 2020
+          .featured-card__data
+            .featured-card__data-data.typo-18 2020
+            .featured-card__data-title.typo-20 Illustration
+          .featured-card__text Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+      hr.works-card__hr
+      .feature-card.row
+        .feature-card__img.col-lg-4.col-md-6.col-sm-6.col-xs-12
+          img(src="../../../assets/img/home/Typography.jpg", alt="Typography")
+        .feature-card__body.col-lg-8.col-md-6.col-sm-6.col-xs-12
+          .featured-card__title.typo-bold-30 36 Days of Malayalam type
+          .featured-card__data
+            .featured-card__data-data.typo-18 2020
+            .featured-card__data-title.typo-20 Typography
+          .featured-card__text Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+      hr.works-card__hr
+      .feature-card.row
+        .feature-card__img.col-lg-4.col-md-6.col-sm-6.col-xs-12
+          img(src="../../../assets/img/home/Components.jpg", alt="Typography")
+        .feature-card__body.col-lg-8.col-md-6.col-sm-6.col-xs-12
+          .featured-card__title.typo-bold-30 Components
+          .featured-card__data
+            .featured-card__data-data.typo-18 2020
+            .featured-card__data-title.typo-20 Components, Design
+          .featured-card__text Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+      hr.works-card__hr

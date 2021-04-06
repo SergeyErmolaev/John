@@ -1,0 +1,11 @@
+.works-card__hr {
+  margin: 2.8125rem 0;
+}
+
+@media (max-width: 375px) {
+  .works-card__hr {
+    margin: 1.25rem 0;
+  }
+}
+
+@import "./work_detail/design/design.scss";

@@ -1,0 +1,82 @@
+.typo-header-head {
+  font-size: 1.375rem;
+}
+
+.typo-18 {
+  font-size: 1.125rem;
+}
+
+.typo-20 {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.typo-24 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.typo-header-bold-26 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
+.typo-30 {
+  font-size: 1.875rem;
+  font-weight: 500;
+}
+
+.typo-bold-30 {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.typo-header-bold-34 {
+  font-size: 2.125rem;
+  font-weight: 700;
+  line-height: 3.125rem;
+}
+
+.typo-page-header {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+}
+
+@media (max-width: 768px) {
+
+  .typo-header-head {
+    font-size: 1.125rem;
+  }
+
+  .typo-header-bold-26 {
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+  }
+
+  .typo-18 {
+    font-size: 1rem;
+  }
+
+  .typo-20 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .typo-bold-30 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .typo-page-header {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .typo-header-bold-34 {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+  }
+}

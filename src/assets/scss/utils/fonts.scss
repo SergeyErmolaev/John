@@ -1,0 +1,50 @@
+// Fonts here
+// see more: https://github.com/vedees/webpack-template/blob/master/README.md#import-js-files
+
+@font-face {
+  font-family: "Heebo";
+  src: url('/assets/fonts/heebo/regular/Heebo-Regular.eot'); // IE9 Compat Modes
+  src: url('/assets/fonts/heebo/regular/Heebo-Regular.woff') format('woff'),
+    // Pretty Modern Browsers
+    url('/assets/fonts/heebo/regular/Heebo-Regular.ttf') format('truetype'),
+    // Safari, Android, iOS
+    url('/assets/fonts/heebo/regular/Heebo-Regular.svg') format('svg'); // Legacy iOS
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Heebo";
+  src: url('/assets/fonts/heebo/medium/Heebo-Medium.eot'); // IE9 Compat Modes
+  src: url('/assets/fonts/heebo/medium/Heebo-Medium.woff') format('woff'),
+    // Pretty Modern Browsers
+    url('/assets/fonts/heebo/medium/Heebo-Medium.ttf') format('truetype'),
+    // Safari, Android, iOS
+    url('/assets/fonts/heebo/medium/Heebo-Medium.svg') format('svg'); // Legacy iOS
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Heebo";
+  src: url('/assets/fonts/heebo/semi_bold/Heebo-SemiBold.eot'); // IE9 Compat Modes
+  src: url('/assets/fonts/heebo/semi_bold/Heebo-SemiBold.woff') format('woff'),
+    // Pretty Modern Browsers
+    url('/assets/fonts/heebo/semi_bold/Heebo-SemiBold.ttf') format('truetype'),
+    // Safari, Android, iOS
+    url('/assets/fonts/heebo/semi_bold/Heebo-SemiBold.svg') format('svg'); // Legacy iOS
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Heebo";
+  src: url('/assets/fonts/heebo/bold/Heebo-Bold.eot'); // IE9 Compat Modes
+  src: url('/assets/fonts/heebo/bold/Heebo-Bold.woff') format('woff'),
+    // Pretty Modern Browsers
+    url('/assets/fonts/heebo/bold/Heebo-Bold.ttf') format('truetype'),
+    // Safari, Android, iOS
+    url('/assets/fonts/heebo/bold/Heebo-Bold.svg') format('svg'); // Legacy iOS
+  font-style: normal;
+  font-weight: 700;
+}

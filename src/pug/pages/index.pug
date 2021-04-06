@@ -1,0 +1,16 @@
+extends ../layout/main
+
+block variables
+  - var title = 'John';
+  - var description = 'John creative technologist';
+  - var pageClass = 'index-page';
+block head 
+  <style>.social-links-block__link { background-image: url('../assets/img/home/social.png'); }</style>
+
+block content
+  section.hero-section
+    include ../includes/home/hero.pug
+  section.banner-section#bannerSection
+    include ../includes/home/banner.pug
+  section.featired-works#featuredWorks
+    include ../includes/home/featured-works.pug

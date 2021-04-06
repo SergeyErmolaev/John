@@ -1,0 +1,34 @@
+.banner-section {
+  padding-top: 23px;
+  padding-bottom: 20px;
+
+  background-color: $neutral-primary;
+}
+
+.banner__head {
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 22px;
+}
+
+.banner__header_link {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+  // .col-lg-6 {
+  //   &:nth-child(2) {
+  //     display: none;
+  //   }
+  // }
+
+  .banner__header_link {
+    display: none;
+  }
+
+  .banner__head_mobile {
+    margin: 0 auto;
+  }
+}

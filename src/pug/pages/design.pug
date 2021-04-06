@@ -1,0 +1,26 @@
+extends ../layout/main
+
+block variables
+  - var title = 'John works';
+  - var description = 'John creative technologist works';
+  - var pageClass = 'works-page';
+block head
+  <style>.social-links-block__link { background-image: url('../assets/img/home/social.png'); } .works-link {color: #FF6464!important;} @media (max-width: 375px) {.social-links-block__link { background-image: url('../assets/img/home/social_red.png'); } .copyright-block__text { color: #FF6464; }} @media (max-width: 768px) { .mobile-menu__icon,  .mobile-menu__icon:after, .mobile-menu__icon:before{ background-color: #FF6464!important; } } .mobile-menu__checkbox:checked~ .mobile-menu__btn .mobile-menu__icon { background: transparent!important; }</style>
+
+block content
+  section.work-detail
+    .container
+      h1.work-detail__header.typo-header-bold-34 Designing Dashboards with usability in mind
+      .work-detail__data
+        .work-detail__data-data.typo-18 2020
+        .work-detail__data-title.typo-20 Dashboard, User Experience Design
+      .work-detail__text Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+      .work-detail__banner.work-detail__banner_mb-55
+        img(src="../assets/img/home/team.jpg", alt="team")
+      h2.work-detail__heading1.typo-30 Heading 1
+      h3.work-detail__heading2.typo-24 Heading 2
+      .work-detail__text.work-detail__text_mb-30 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+      .work-detail__banner.work-detail__banner_mb-30
+        img(src="../assets/img/home/car.jpg", alt="team")
+      .work-detail__banner
+        img(src="../assets/img/home/order.jpg", alt="team")

@@ -1,0 +1,70 @@
+// header style
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: $default-color;
+}
+
+.header-nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-nav_item {
+  margin-left: 2rem;
+  font-weight: 500;
+}
+
+.nav-toggle {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 1;
+
+  width: 30px;
+  padding: 10px 0;
+  
+  font-size: 0;
+  color: transparent;
+  background: none;
+
+}
+
+.nav-toggle__item {
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  height: 2px;
+  margin: auto;
+
+  background-color: $dark-color;
+}
+
+.nav-toggle__item:before,
+.nav-toggle__item:after {
+  content: "";
+  position: absolute;
+  left: 0;
+
+  display: block;
+  width: 100%;
+  height: 2px;
+
+  background-color: $dark-color;
+}
+
+.nav-toggle__item:before {
+  top: 0px;
+}
+
+.nav-toggle__item:after {
+  bottom: 0px;
+}
